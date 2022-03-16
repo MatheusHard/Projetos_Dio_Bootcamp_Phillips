@@ -1,0 +1,47 @@
+body{
+    font: 20px Arial, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    /*Direcao dos itens: */
+    flex-direction: column;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 310px;
+    
+}
+.item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    line-height: 50px;
+    /*tamanho minimo do Item:*/
+    min-width: 100px;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+/*Quaebra os items, não deixando vazar pra fora do container:*/
+.with-wrap{
+    flex-wrap: wrap;
+}
+.with-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.gray{
+    background-color: grey;
+}
+
+

@@ -45,3 +45,42 @@ body{
 }
 
 
+/*JUSTIFY CONTENT*/
+
+.justify-container{
+ 
+    max-width: 400px;
+    display: flex;
+    margin: 0;
+    border: 2px solid black;
+    
+}
+.item-justify{
+
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;    
+}
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-center{
+    justify-content: center;
+}
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.flex-space-around{
+    justify-content: space-around;
+}
+.column{
+    flex-direction: column;
+    min-height: 200px;
+}

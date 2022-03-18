@@ -84,3 +84,47 @@ body{
     flex-direction: column;
     min-height: 200px;
 }
+
+.container-align{
+    max-width: 350px;
+    border: 1px solid black;
+    display: flex;
+    
+}
+.item-align{
+    background-color: blue;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+.flex{
+    flex: 1;
+}
+
+.align-itens-center{
+    align-items: center;
+}
+.align-itens-stretch{
+    align-items: stretch;
+}
+.align-itens-flex-start{
+    align-items: flex-start;
+}
+.align-itens-flex-end{
+    align-items: flex-end;
+}
+.align-itens-baseline{
+    align-items: baseline;
+}
+
+.central{
+    height: 300px;
+    justify-content: center;
+}
+.remove_flex{
+    flex: 0;
+    padding: 20px;
+}
+

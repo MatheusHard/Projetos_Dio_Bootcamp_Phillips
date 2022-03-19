@@ -7,9 +7,167 @@
 
     </head>
     <body>
+   
+        
+<!--FLEX SHRINK-->
+<h1>FLEX SHRINK</h1>
+
+<p>SHRINK: 0 / Basis: 100px</p>
+ <section class="flex-container-shrink">
+ <div class="item-shrink s-1 fg-1">A</div>
+ <div class="item-shrink s-2 fg-1">BBB DSF VGB</div>
+ <div class="item-shrink s-2 fg-1">C</div>
+ <div class="item-shrink s-3 fg-1">FDD</div>
+ </section> 
+
+<p>SHRINK: 1</p>
+ <section class="flex-container-shrink">
+ <div class="item-shrink s-1 fg-1">A</div>
+ <div class="item-shrink s-1 fg-1">BBB</div>
+ <div class="item-shrink s-1 fg-1">C</div>
+ <div class="item-shrink s-1 fg-1">FDD</div>
+ </section> 
+ 
+ <section class="flex-container-shrink">
+    <div class="item-shrink s-1 fg-1">A</div>
+    <div class="item-shrink s-1 fg-1">BBB  F  FD FDDS FDCSS</div>
+    <div class="item-shrink s-1 fg-1">C</div>
+    <div class="item-shrink s-1 fg-1">FDD</div>
+    </section> 
+
+    <p>SHRINK: 0 + Basis 100px</p>
+ <section class="flex-container-shrink">
+    <div class="item-shrink s-0 fg-1">A</div>
+    <div class="item-shrink s-0 fg-1">BBB</div>
+    <div class="item-shrink s-0 fg-1">C</div>
+    <div class="item-shrink s-0 fg-1">FDD</div>
+ </section> 
+<!--FLEX BASIS-->
+<h1>FLEX BASIS</h1>
+
+<p>Basis: auto</p>
+ <section class="container-flex-basis">
+ <div class="item-flex-basis basis_100 fg-2">A</div>
+ <div class="item-flex-basis basis_100 fg-2">BBB</div>
+ <div class="item-flex-basis basis_100 fg-2">C</div>
+ <div class="item-flex-basis basis_100 fg-2">FDD</div>
+ </section>
+
+ <p>Basis + withd</p>
+ <section class="container-flex-basis">
+ <div class="item-flex-basis b-auto fg-1">A</div>
+ <div class="item-flex-basis b-auto fg-1">BBB</div>
+ <div class="item-flex-basis b-auto fg-1">C</div>
+ <div class="item-flex-basis b-auto fg-2">FDD</div>
+ </section>
+
+ <p>Basis: 0</p>
+ <section class="container-flex-basis">
+ <div class="item-flex-basis b-0 fg-1">AAAAAAA</div>
+ <div class="item-flex-basis b-0 fg-1">BBB</div>
+ <div class="item-flex-basis b-0 fg-1">C</div>
+ <div class="item-flex-basis b-0 fg-1">FDD</div>
+ </section>
+
+<!--FLEX GROW-->
+<h1>FLEX GROW</h1>
+
+<p>Grow: 0</p>
+ <section class="container-flex-grow">
+ <div class="item-flex-grow fg-0">A</div>
+ <div class="item-flex-grow fg-0">B</div>
+ <div class="item-flex-grow fg-0">C</div>
+ <div class="item-flex-grow fg-0">D</div>
+ </section>
+
+ <p>Grow: 1</p>
+ <section class="container-flex-grow">
+ <div class="item-flex-grow fg-1">A</div>
+ <div class="item-flex-grow fg-1">B</div>
+ <div class="item-flex-grow fg-1">C</div>
+ <div class="item-flex-grow fg-1">D</div>
+ </section>
+
+ <p>Grow: alternado</p>
+ <section class="container-flex-grow">
+ <div class="item-flex-grow fg-1">A</div>
+ <div class="item-flex-grow fg-2">B</div>
+ <div class="item-flex-grow fg-3">C</div>
+ <div class="item-flex-grow fg-1">D</div>
+ </section>
 
 
+  <!--ALIGN CONTENTS-->
+  <h1>ALIGN CONTENTS ROW</h1>
 
+  <p>contents Stretch</p>
+   <section class="container-align-content content-stretch">
+      <div class="item-align-content">Lorens d dadad  adadas  adad </div>
+      <div class="item-align-content">Lotr mekdm kad mkad</div>
+      <div class="item-align-content">Lorend adkmadkad adka dad </div>
+      <div class="item-align-content">dadada adada  ad a da  dad a</div>
+      <div class="item-align-content">dadad  dadad ada da ad ad ad ad ad ada a da daa</div>
+      <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+      <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+    </section>
+
+    <p>contents Center</p>
+   <section class="container-align-content content-center">
+      <div class="item-align-content">Lorens d dadad  adadas  adad </div>
+      <div class="item-align-content">Lotr mekdm kad mkad</div>
+      <div class="item-align-content">Lorend adkmadkad adka dad </div>
+      <div class="item-align-content">dadada adada  ad a da  dad a</div>
+      <div class="item-align-content">dadad  dadad ada da ad ad ad ad ad ada a da daa</div>
+      <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+      <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+    </section>
+
+    <p>contents Flex Start</p>
+    <section class="container-align-content content-flex-start">
+       <div class="item-align-content">Lorens d dadad  adadas  adad </div>
+       <div class="item-align-content">Lotr mekdm kad mkad</div>
+       <div class="item-align-content">Lorend adkmadkad adka dad </div>
+       <div class="item-align-content">dadada adada  ad a da  dad a</div>
+       <div class="item-align-content">dadad  dadad ada da ad ad ad ad ad ada a da daa</div>
+       <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+       <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+     </section>
+
+     <p>contents Flex End</p>
+     <section class="container-align-content content-flex-end">
+        <div class="item-align-content">Lorens d dadad  adadas  adad </div>
+        <div class="item-align-content">Lotr mekdm kad mkad</div>
+        <div class="item-align-content">Lorend adkmadkad adka dad </div>
+        <div class="item-align-content">dadada adada  ad a da  dad a</div>
+        <div class="item-align-content">dadad  dadad ada da ad ad ad ad ad ada a da daa</div>
+        <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+        <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+      </section>
+
+     <p>contents Space Around</p>
+     <section class="container-align-content content-space-around">
+        <div class="item-align-content">Lorens d dadad  adadas  adad </div>
+        <div class="item-align-content">Lotr mekdm kad mkad</div>
+        <div class="item-align-content">Lorend adkmadkad adka dad </div>
+        <div class="item-align-content">dadada adada  ad a da  dad a</div>
+        <div class="item-align-content">dadad  dadad ada da ad ad ad ad ad ada a da daa</div>
+        <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+        <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+      </section>
+
+      <p>contents Space Between</p>
+      <section class="container-align-content content-space-between">
+         <div class="item-align-content">Lorens d dadad  adadas  adad </div>
+         <div class="item-align-content">Lotr mekdm kad mkad</div>
+         <div class="item-align-content">Lorend adkmadkad adka dad </div>
+         <div class="item-align-content">dadada adada  ad a da  dad a</div>
+         <div class="item-align-content">dadad  dadad ada da ad ad ad ad ad ada a da daa</div>
+         <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+         <div class="item-align-content">dadada adada  ad a da  dadada adada  ad a da </div> 
+       </section>
+
+
+      
           <!--ALIGN ITENS-->
           <h1>ALIGN ITENS ROW</h1>
 

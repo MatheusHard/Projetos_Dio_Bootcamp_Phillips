@@ -128,3 +128,134 @@ body{
     padding: 20px;
 }
 
+/*ALIGN CONTENTS*/
+.container-align-content{
+    height: 400px;
+    max-width: 300px;
+    /*
+    Deixa conten no centro da pagina:
+    margin: 0 auto;
+    */
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.item-align-content{
+    background-color: orange;
+    padding: 0 5px;
+    flex: 1;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.content-stretch{
+    align-content: stretch;
+}
+.content-center{
+    align-content: center;
+}
+.content-flex-start{
+    align-content: flex-start;
+}
+
+.content-flex-end{
+    align-content: flex-end;
+}
+
+.content-space-around{
+    align-content: space-around;
+}
+.content-space-between{
+    align-content: space-between;
+}
+
+/*FLEX GROW*/
+.container-flex-grow{
+    display: flex;
+    border: 2px solid black;
+    max-width: 300px;
+    justify-content: center;
+}
+.item-flex-grow{
+    background-color: aqua;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.fg-0{
+    flex-grow: 0;
+}
+.fg-1{
+    flex-grow: 1;
+}
+.fg-2{
+    flex-grow: 2;
+}
+.fg-3{
+    flex-grow: 3;
+}
+
+/*FLEX BASIS*/
+
+.container-flex-basis{
+    display: flex;
+    border: 2px solid black;
+    max-width: 500px;
+    }
+.item-flex-basis{
+    background-color: coral;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+.b-auto{
+    flex-basis: auto;
+}
+.b-0{
+    flex-basis: 0;
+}
+.basis_100{
+    flex-basis: 100px;
+}
+
+/*FLEX SHRINK*/
+.flex-container-shrink{
+    display: flex;
+    border: 1px solid black;
+    max-width: 350px;
+    margin-bottom: 10px;
+
+}
+.item-shrink{
+    background-color: orangered;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+.s-1{
+    flex-shrink: 1;
+}
+.s-0{
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.s-2{
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+.s-3{
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+
+
+
+
+
+
+
+
+

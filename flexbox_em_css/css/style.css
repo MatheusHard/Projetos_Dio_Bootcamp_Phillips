@@ -251,7 +251,89 @@ body{
     flex-basis: 100px;
 }
 
+/*FLEX*/
+.flex-container-2{
+    display: flex;
+    border: 1px solid black;
+    max-width: 400px;
 
+}
+.flex-item{
+
+    background-color: chartreuse;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.large{
+    width: 200px;
+}
+/*ORDER*/
+.order-container{
+    display: flex;
+    max-width: 350px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.order-item{
+    flex: 1;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+    order: 0;
+}
+.o1{
+    order: 1;
+}
+.o2{
+    order: 2;
+}
+.o3{
+    order: 3;
+}
+
+/*ALIGN SELF*/
+.self-container{
+    display: flex;
+    max-width: 350px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.self-item{
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+    
+}
+.self-center{
+    align-self: center;
+}
+.self-start{
+    align-self: flex-start;
+}
+.self-end{
+    align-self: flex-end;
+}
+.self-baseline{
+    align-self: baseline;
+}
+.self-stretch{
+    align-self: stretch;
+}
+.self-auto{
+    align-self: auto;
+}
 
 
 
